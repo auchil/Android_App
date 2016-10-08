@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    tools:context="com.example.admin.practice.Ready">
+
+    <ImageView
+        android:id="@+id/dimage"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/dname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="Name"/>
+    <TextView
+        android:id="@+id/dframe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="Frame"/>
+    <TextView
+        android:id="@+id/dflight_cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="Flight Controller"/>
+    <TextView
+        android:id="@+id/dmotor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="Motor"/>
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="ESCs"/>
+    <TextView
+        android:id="@+id/dbattery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="Battery"/>
+    <TextView
+        android:id="@+id/dfpv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="FPV"/>
+    <TextView
+        android:id="@+id/dvtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="VTx"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:textColor="#FFF"
+        android:text="Ready!"
+        android:onClick="ready"
+        android:layout_gravity="center"
+        android:layout_marginTop="27dp"
+        android:background="#2f6699"
+        android:layout_marginBottom="27dp"
+        />
+
+
+</LinearLayout>
+</ScrollView>

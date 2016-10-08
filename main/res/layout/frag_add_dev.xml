@@ -1,0 +1,136 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDevice">
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:inputType="textPersonName"
+            android:hint="Vtx"
+            android:gravity="center"
+            android:background="@drawable/custombutton"
+            android:ems="10"
+            android:id="@+id/editText7"
+            android:layout_below="@+id/editText6"
+            android:layout_alignStart="@id/editText6"
+            android:layout_alignLeft="@id/editText6"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:inputType="textPersonName"
+            android:hint="Device Name"
+
+            android:gravity="center"
+            android:background="@drawable/custombutton"
+            android:ems="10"
+            android:id="@+id/editText8"
+            android:layout_marginTop="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/editText"
+            android:layout_alignStart="@+id/editText" />
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:hint="Frame"
+        android:ems="10"
+        android:gravity="center"
+        android:background="@drawable/custombutton"
+        android:id="@+id/editText"
+        android:layout_below="@id/editText8"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:hint="Flight Controller"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:background="@drawable/custombutton"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:hint="Motors"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:background="@drawable/custombutton"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:hint="ESCs"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:background="@drawable/custombutton"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:hint="Battery Type"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:background="@drawable/custombutton"
+        android:id="@+id/editText5"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:text="Add Device"
+        android:ems="10"
+        android:textColor="#FFF"
+        android:background="#2f6699"
+        android:id="@+id/button"
+        android:layout_below="@+id/editText7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:hint="FPV Goggles"
+        android:gravity="center"
+        android:background="@drawable/custombutton"
+        android:ems="10"
+        android:id="@+id/editText6"
+        android:layout_below="@+id/editText5"
+        android:layout_marginBottom="15dp"
+
+        android:layout_alignStart="@id/editText5"
+        android:layout_alignLeft="@id/editText5"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>
